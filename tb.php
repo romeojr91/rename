@@ -160,7 +160,7 @@ echo color("blue"," ======================================\n");
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
          echo color("red","========( PIN MU = 123789 )========")."\n";
-         $data2 = '{"pin":"112233"}';
+         $data2 = '{"pin":"123789"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
          $otpsetpin = trim(fgets(STDIN));
